@@ -1,0 +1,318 @@
+.lemonpay-wrap {
+    clear: both;
+    margin: 0px auto;
+    max-width: 1024px;
+    min-width: 930px;
+    overflow: hidden;
+}
+
+.lemonpay-header {
+    clear: both;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    overflow: hidden;
+}
+
+.lemonpay-header img.lemonpay-logo {
+    float: left;
+    margin: 0px 50px 0px 0px;
+}
+
+.lemonpay-header span.lemonpay-intro {
+    border-left: #A7A8AB solid 1px;
+    color: #00A9E0;
+    display: block;
+    float: left;
+    font-size: 24px;
+    height: 55px;
+    line-height: 24px;
+    margin: 0px;
+    padding: 10px 0px 0px 50px;
+}
+
+.lemonpay-header a.lemonpay-create-btn {
+    background-color: #00A9E0;
+    color: #FFF;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 33px;
+    margin: 18px 0px 0px 0px;
+    padding: 0px 15px;
+}
+
+.lemonpay-header a.lemonpay-create-btn:hover {
+    background-color: #0099E0;
+}
+
+.lemonpay-content {
+    border: #A7A8AB solid 1px;
+    clear: both;
+    margin: 0px 0px 10px 0px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.lemonpay-content h3 {
+    color: #00A9E0;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 22px;
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+}
+
+.lemonpay-content h3 sup {
+    font-size: 12px;
+    vertical-align: super;
+}
+
+.lemonpay-content h3 strong {
+    color: #CC0000;
+    vertical-align: text-top;
+}
+
+.lemonpay-content p, .lemonpay-content ul li {
+    color: #535353;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.lemonpay-content a.lemonpay-btn {
+    background-color: #CCC;
+    color: #008CDD;
+    display: inline-block;
+    margin: 7px 0px;
+    padding-left: 8px;
+    text-decoration: none;
+}
+
+.lemonpay-content a.lemonpay-btn:hover {
+    background-color: #666;
+    text-decoration: underline;
+}
+
+.lemonpay-content ul {
+    list-style: none;
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+}
+
+.lemonpay-content p.lemonpay-note {
+    color: #7F7F7F;
+    font-size: 1em;
+    font-style: italic;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
+.lemonpay-content p.lemonpay-note sup {
+    font-size: 0.8em;
+    vertical-align: super;
+}
+
+.lemonpay-full {
+    border-top: #A7A8AB solid 1px;
+    clear: both;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+.lemonpay-full p {
+    color: #00A9E0;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0px 0px 0px 410px;
+}
+
+img.lemonpay-cc {
+    float: left;
+    margin: 0px 0px 0px -410px;
+}
+
+#lemonpay-configuration input.text {
+    width: 90%;
+}
+
+.lemonpay-wrap fieldset {
+    overflow: hidden
+}
+
+.lemonpay-wrap .MB10 {
+    margin-bottom: 10px;
+}
+
+.lemonpay-wrap .L {
+    float: left;
+}
+
+.lemonpay-wrap .R {
+    float: right;
+}
+
+.lemonpay-wrap fieldset p {
+    text-shadow: 0px 1px 0px #FFFFFF;
+}
+
+fieldset h4 {
+    margin-top: 0px;
+}
+
+fieldset span.small {
+    color: #7F7F7F;
+}
+
+div.lemonpay-half {
+    width: 48%;
+}
+
+div.lemonpay-half ol {
+    color: #585A69;
+    font-size: 0.85em;
+    font-weight: bold;
+    list-style-type: decimal;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px 0px 0px 25px;
+}
+
+div.lemonpay-half ol li {
+    margin: 0px 0px 8px 0px;
+    padding: 0px;
+}
+
+div.lemonpay-half ol li p {
+    color: #7F7F7F;
+    font-size: inherit;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.lemonpay-half ol li p a, a.lemonpay-credentials-link {
+    color: #268CCD;
+    text-decoration: underline;
+}
+
+a.lemonpay-credentials-link {
+    font-size: 12px;
+}
+
+div.lemonpay-half ol li p a:hover, a.lemonpay-credentials-link:hover {
+    text-decoration: none;
+}
+
+
+/* Forn-office styles */
+
+div.payment_module {
+    padding-bottom: 20px;
+    text-transform: none;
+}
+
+div.payment_module .lemonpay-logo {
+    clear: both;
+    float: none;
+    margin-bottom: 20px;
+}
+
+.payment_module #lemonpay_form img {
+    float: none;
+}
+
+.block-left {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+#lemonpay_form label {
+    display: inline-block;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+#lemonpay_form input[type="text"], #lemonpay_form select {
+    border: #CCCCCC solid 1px;
+    margin: 0px 0px 15px 0px;
+    padding: 3px;
+}
+
+#lemonpay_form a {
+    display: inline;
+    position: relative;
+}
+
+#lemonpay_form img.cc-lemonpay-icon {
+    border: #CCCCCC solid 1px;
+    float: left;
+    margin-right: 5px;
+}
+
+#lemonpay_form img.cc-lemonpay-disable {
+    opacity: 0.3;
+}
+
+#lemonpay_form img.cc-lemonpay-enable {
+    opacity: 1;
+}
+
+a.lemonpay-card-cvc-info {
+    cursor: default;
+    font-style: italic;
+    margin-left: 5px;
+}
+
+img#lemonpay_cvv_help {
+    margin-right: 4px;
+    vertical-align: text-bottom;
+}
+
+a.lemonpay-card-cvc-info div.cvc-info {
+    background-color: #BDE5F8;
+    border: #00529B solid 1px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #00529B!important;
+    display: none;
+    font-style: normal;
+    padding: 8px;
+    position: absolute;
+    right: -320px;
+    top: -85px;
+    text-decoration: none;
+    width: 300px;
+}
+
+a.lemonpay-card-cvc-info:hover {
+    background-color: none;
+}
+
+a.lemonpay-card-cvc-info:hover div.cvc-info {
+    display: block;
+    z-index: 10;
+}
+
+div.cvc-info:hover {
+    cursor: default;
+}
+
+#lemonpay_cvv_help_img {
+    display: block;
+    margin: 0px;
+}
+
+#lemonpay_form .button {
+    float: left;
+    margin-right: 20px;
+}
+
+#lemonpay_submitload {
+    float: left;
+    margin-top: 2px;
+}
